@@ -1,0 +1,72 @@
+.cards {
+    margin-top: 50px;
+}
+
+/* style container */
+.container-cards {
+    width: 300px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 75px;
+    margin: 0 auto;
+}
+
+/* stlye title */
+.title i {
+    color: #000000;
+}
+
+h5 {
+    display: inline;
+    color: #000000;
+    font-weight: bolder;
+}
+
+/* style subtitles */
+.subtitles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subtitles p {
+    margin: 0px 1px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 900;
+}
+
+#split, #add, #solve {
+    width: 40px;
+    text-align: center;
+}
+
+#split {
+    background-color: orange;
+}
+
+#add {
+    background-color: green;
+}
+
+#solve {
+    background-color: blue;
+}
+
+#message {
+    color: #000000;
+    width: 20px;
+    text-align: center;
+}
+
+/* style options */
+.options {
+    display: flex;
+}
+
+/* more styles */
+.title, .subtitles {
+    margin: 3px 10px;
+}
