@@ -10,7 +10,7 @@
 .btn-submit {
     border: 2px solid white;
     border-radius: 5px;
-    padding: 8px;
+    padding: 8px 16px;
     text-decoration: none;
     color: #14F1E4;
     background: black;
@@ -20,5 +20,7 @@
     border: 2px solid white;
     text-decoration: none;
     background: #626262;
-
+    color: white;
+    padding: 8px 32px;
+    border-radius: 5px;
 }
